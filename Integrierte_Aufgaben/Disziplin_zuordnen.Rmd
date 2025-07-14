@@ -1,0 +1,85 @@
+```{r, include=FALSE}
+## Fragen und ihre Kategorien
+Fragen <- rbind(
+  c("Was soll das Ziel von Schule und Unterricht sein?",
+    "Erziehungswissenschaft", "normative"),
+  c("Was sind wirklich gesellschaftliche relevante Unterrichtsinhalte?",
+    "Erziehungswissenschaft", "normative"),
+  c("Wie lege ich fest, was in den »Lehrplan« kommt?",
+    "Erziehungswissenschaft", "normative"),
+  c("Wie wichtig ist Rechtschreibung noch?",
+    "Erziehungswissenschaft", "normative"),
+  c("Ist Demokratiebildung nicht das allerwichtigste?",
+    "Erziehungswissenschaft", "normative"),
+  c("Was soll Schule in Zeiten von KI leisten?",
+    "Erziehungswissenschaft", "normative"),
+  c("Wie kann ich Interesse bei Schüler:innen entstehen lassen?",
+    "Psychologie", "explanative"),
+  c("Sollte ich Feedback zur Aufgabe oder zur Person geben?",
+    "Psychologie", "explanative"),
+  c("Was könnten paradoxe Effekte von Lob & Tadel auf die Motivation sein?",
+    "Psychologie", "explorative"),
+  c("Gibt es auditive und visuelle Lernende?",
+    "Psychologie", "explanative"),
+  c("Sind Animationen lernwirksam?",
+    "Psychologie", "explanative"),
+  c("In welchen Lernsituationen sollte man anatomische Abbildungen in Biologiebüchern realistisch bzw. schematisch abbilden?",
+    "Psychologie", "explorative"),
+  #c("Sind Experimente im Physikunterricht lernwirksam?",
+  #  "Psychologie", "explanative"),
+  c("Wie stark ist die herkunftsbezogene Bildungsungleichheit?",
+    "Soziologie", "deskriptive"),
+  c("Wie stark ähneln sich berufliche Interessen in Familien?",
+    "Soziologie", "deskriptive"),
+  c("Welche Elternteile sind wie stark in die Schulbegleitung involviert?",
+    "Soziologie", "deskriptive"),
+  c("Was sind mögliche Erklärungen für die stärkere Ähnlichkeit der Berufe von Müttern und Töchtern im Vergleich zu Vätern und Töchtern?",
+    "Soziologie", "explorative")
+)
+Fragen <- cbind(Fragen, "", "")
+
+## Fragen Kategorienausprägungen
+Disziplinen <- c("Erziehungswissenschaft", "Psychologie", "Soziologie")
+Erkenntnisinteressen <- c("explanative", "explorative", "deskriptive", "normative")
+
+## Binary coding of features
+match_mchoice <- function(true, options) {
+  x <- match(true, options)
+  sapply(x, function(i) paste(append(rep(0, length(options) - 1), 1, after = i - 1), collapse = ""))
+}
+
+Fragen[, 5] <- match_mchoice(Fragen[,2], Disziplinen)
+Fragen[, 4] <- match_mchoice(Fragen[,3], Erkenntnisinteressen)
+
+## Casually selecting two Fragen
+Fragen <- Fragen[sample(1:nrow(Fragen), 2), ]
+
+## Possible answers and correct solution
+ans <- rep(c(Erkenntnisinteressen, Disziplinen), 2)
+sol <- paste(t(Fragen[, 4:5]), collapse = "|")
+```
+
+Question
+========
+Welches Erkenntnisinteresse und welche Disziplin kann der folgenden Frage zugeordnet werden? 
+
+> "*`r Fragen[1,1]`*" stellt eine ##ANSWER1## Frage aus der ##ANSWER2## dar.  
+
+<!-- > "*`r Fragen[2,1]`*" stellt eine ##ANSWER3## Frage aus der ##ANSWER4## dar. --> 
+
+```{r, echo=FALSE, results="asis"}
+answerlist(ans[1:7], markup = "markdown")
+```
+
+Solution
+========
+Bitte beachten Sie:
+
+> Diese Zuordnungen sind nicht immer ganz eindeutig und teilweise vielleicht sogar umstritten. Dennoch können die Kategorien Ihnen sicher als Orientierungshilfe im Dschungel der Bildungswissenschaften dienen.
+
+Meta-information
+================
+exname: FoFragen Disziplin und Erkenntnisinteresse zuordnen
+extype: cloze
+exclozetype: schoice|schoice
+exsolution: `r str_sub(sol, 1, 8)`

@@ -1,0 +1,137 @@
+---
+title: Schulpädagogik
+subtitle: Brücken schlagen zwischen generischen, fachdidaktischen und schulartspezifischen Anforderungen
+author: Samuel Merk
+
+date: 07/15/2025
+date-format: long
+
+logo: img/PHlogo.svg
+footer: Folien {{< iconify streamline:creative-commons-solid >}} {{< iconify fa6-brands:creative-commons-by >}} unter bit.ly/merk314
+
+format: 
+  revealjs:
+    slide-number: c
+    citations-hover: true
+    footnotes-hover: true
+
+brand: _template/_brand.yml    
+
+lang: de
+
+bibliography: references.bib
+
+nocite: |
+  @schoenpflug2006, @seel2015a, @schaefers2019
+
+glossary:
+  path: glossary.yml
+  popup: click
+  show: true
+---
+
+## Metakommentar {{< iconify fa6-solid:satellite >}} {.smaller}
+
+* Ein Lehrvortrag ist eine besondere Situation
+* Für umfassenderes Abbild siehe
+    * Materialien aus aktueller Vorlesung [{{< iconify fa6-solid:arrow-up-right-from-square >}}](https://sammerk.github.io/VL-Forschungsmethoden-SoSe25/Block03-Effektstaerken/Folien/#/title-slide)
+    * Open Educational Ressources auf Github [{{< iconify fa6-solid:arrow-up-right-from-square >}}](https://sammerk.github.io/Einfuehrung-R-GRAPH-Maerz25/)
+    * Evaluationen des letzten Semester [{{< iconify fa6-solid:arrow-up-right-from-square >}}](img/Evaluationen_WiSe_24_25.pdf) 
+* Für mich typisches auch hier erkennbar:
+    * Vorwissen/Präkonzepte aktivieren
+    * Active Retrieval Practice 
+    * Glossar, Selbstlernmaterialien, Open Educational Resources
+
+## Überblick {.center}
+
+| {{< iconify fa6-solid:question >}} | **Ihre (Forschungs-)Fragen an die Bildungswissenschaften** |
+|---------------------------------------:|:-------------------------------|
+| {{< iconify fluent-mdl2:venn-diagram >}} | **Disziplinen und Erkenntnisinteressen in den Bildungswissenschaften** |
+| {{< iconify fa6-solid:layer-group >}} | **Pädagogische Handlungsebenen** |
+| {{< iconify ph:tree-view-fill >}} | **Generisches und Spezifisches in der Schulpädagogik** |
+
+: Vortragsüberblick {#tbl-agenda tbl-colwidths="\[5,90\]"}
+
+<style>
+#tbl-agenda-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca {
+  color: #d9534f00; /* transparant */
+  font-weight: bold;
+}
+</style>
+
+
+## **Ihre (Forschungs-)Fragen an die Bildungswissenschaften** {{< iconify fa6-solid:question >}} {.smaller .center}
+
+> Angenommen Sie dürften eine Forscherin oder einen Forscher aus einer Bildungswissenschaft (u.a. {{< glossary Erziehungswissenschaft >}}, {{< glossary Soziologie >}}, {{< glossary Psychologie >}}) beauftragen, einer Frage Ihrer Wahl zu nachzugehen. *Wie würde diese Frage lauten?*
+
+[![](img/Fragen.svg)]{.fragment}
+
+
+
+## [Disziplinen in den Bildungswissenschaften {{< iconify fluent-mdl2:venn-diagram >}}]{style="font-size: .85em;"}  {.smaller}
+
+* Es gibt zahlreiche Versuche »die Bildungswissenschaften« zu definieren [@terhart2012; @cramer2019b]
+* Vergleichsweise unstrittig ist, dass es sich um **»diejenigen wissenschaftlichen Disziplinen und Teildisziplinen handelt, die sich wissenschaftlich in jeder denkbaren theoretischen und methodischen Hinsicht [...] auf Themen, Institutionen, Prozesse, Resultate von Bildung und Ausbildung beziehen«** [@terhart2012, S. 28]
+* Damit haben u.a. Erziehungswissenschaft, Soziologie und Psychologie Anteil an den Bildungswissenschaften.
+
+. . .
+
+![](img/Verortung.svg){fig-align="center" width=80%}
+
+::: {.footer}
+:::
+
+## [Erkenntisinteressen in den Bildungswiss. {{< iconify fluent-mdl2:venn-diagram >}}]{style="font-size: .9em;"} {.smaller}
+
+:::: {.columns}
+
+::: {.column width='60%'}
+#### Definitionen [@doering2016]
+* "Normative Forschungsfragen" adressieren Sollensansprüche
+* "Deskriptive Forschungsfragen" wollen Variablen bzgl. in ihrer Ausprägung in Gruppen/Populationen beschreiben
+* "Explanative Forschungsfragen" wollen bestehende Hypothesen zu Ursache- Wirkungszusammenhängen belegen/widerlegen 
+* "Explorative Forschungsfragen" wollen neue (deskriptive oder explanative) Forschungsfragen oder Hypothesen entwickeln
+:::
+
+::: {.column width='40%'}
+#### Übung
+<center>
+<iframe width="552" height="500" src="Integrierte_Aufgaben/Disziplin_zuordnen.html" title="Aufgabe"></iframe>
+</center>
+:::
+
+::::
+
+## Sozialwiss. Analyseebenen {{< iconify fa6-solid:layer-group >}} {.smaller}
+Eine weitere Gliederungsmöglichkeit bildungswissenschaftlicher Forschungsfragen erwächst aus der Unterscheidung [@schubert2020; @tippelt2023] von 
+
+* Aggregaten/Systemen (z.B. Schulsystem eines Bundeslandes) - Makroebene
+* Institutionen (z.B. Geschwister Scholl Schule Tübingen) - Mesoebene
+* Einzelakteuren (z.B. Lehrkraft, Schülerin) - Mikroebene
+
+## [Schulpädagogik als Brücke/Gelenkstelle {{< iconify icon-park-solid:bridge-one >}}]{style="font-size:.9em;"} {.smaller}
+Schulpädagogik [@rothland2019] synthetisiert
+
+* explanative, explorative, deskriptive und normative bildungswissenschaftliche Forschung,
+* bildet (daraus) heuristische Rahmenmodelle, die der Planung, Analyse und Reflexion [@koenig2022] von schulischem Handeln dienen können und 
+* beforscht diese Prozesse professionellen Lehrpersonenhandels. [@kunina-habenichtolga2020]
+
+Dabei fokussiert sie tendenziell eher fach- und schulartunspezifische (generische) bildungswissenschaftliche Aspekte und generiert genau Brücken/Gelenkstellen zwischen den diversen Fachdidaktiken und Lehrämtern.
+
+## Raster {.smaller}
+| Perspektive/Ebene | **Mikro** (Unterricht) | **Meso** (Schule) | **Makro** (System) |
+|-------------------|-------------------|-----------------|-----------------------|
+| **(eher) Generisch** | Feedback | kollegiale Kooperation | Bildungsgerechtigkeit |
+| **(eher) Fachspezifisch** | Pädagogische Diagnostik | Curriculumsentwicklung | Bildungsstandards |
+| **(eher) Schulartspezifisch** | Prüfungsformen | Übergangsgestaltung | Zugangsvoraussetzungen |
+
+
+
+## Literatur {.smaller}
+
+
+
+
+
+::: footer
+:::
