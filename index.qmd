@@ -33,7 +33,7 @@ glossary:
 ## Metakommentar {{< iconify fa6-solid:satellite >}} {.smaller}
 
 * Ein Lehrvortrag ist eine besondere Situation
-* Für umfassenderes Abbild siehe
+* Für umfassenderen Eindruck siehe
     * Materialien aus aktueller Vorlesung [{{< iconify fa6-solid:arrow-up-right-from-square >}}](https://sammerk.github.io/VL-Forschungsmethoden-SoSe25/Block03-Effektstaerken/Folien/#/title-slide)
     * Open Educational Ressources auf Github [{{< iconify fa6-solid:arrow-up-right-from-square >}}](https://sammerk.github.io/Einfuehrung-R-GRAPH-Maerz25/)
     * Evaluationen des letzten Semesters [{{< iconify fa6-solid:arrow-up-right-from-square >}}](img/Evaluationen_WiSe_24_25.pdf) 
@@ -132,7 +132,7 @@ Dabei fokussiert sie tendenziell eher fach- und schulartunspezifische (generisch
 
 
 
-## [Formatives Assessment als Brücke zur Fachdidaktik]{style="font-size: .8em;"} {.smaller}
+## [Formatives Assessment als Brücke zur Fachdidaktik]{style="font-size: .8em;"} {.smaller visibility="hidden"}
 :::: {.columns}
 
 ::: {.column width='50%'}
@@ -148,6 +148,8 @@ Dabei fokussiert sie tendenziell eher fach- und schulartunspezifische (generisch
 ![Hassediagramm dieser Aufgaben nach Falmagne [-@falmagne1990]](img/Hasse.png){width="70%"}
 :::
 ::::
+
+
 
 ## Literatur {.smaller}
 
