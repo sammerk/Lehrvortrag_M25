@@ -7,7 +7,7 @@ date: 07/15/2025
 date-format: long
 
 logo: img/PHlogo.svg
-footer: Folien {{< iconify streamline:creative-commons-solid >}} {{< iconify fa6-brands:creative-commons-by >}} unter bit.ly/merk314
+footer: Folien {{< iconify streamline:creative-commons-solid >}} {{< iconify fa6-brands:creative-commons-by >}} unter https://ogy.de/merk026
 
 format: 
   revealjs:
@@ -36,7 +36,7 @@ glossary:
 * Für umfassenderes Abbild siehe
     * Materialien aus aktueller Vorlesung [{{< iconify fa6-solid:arrow-up-right-from-square >}}](https://sammerk.github.io/VL-Forschungsmethoden-SoSe25/Block03-Effektstaerken/Folien/#/title-slide)
     * Open Educational Ressources auf Github [{{< iconify fa6-solid:arrow-up-right-from-square >}}](https://sammerk.github.io/Einfuehrung-R-GRAPH-Maerz25/)
-    * Evaluationen des letzten Semester [{{< iconify fa6-solid:arrow-up-right-from-square >}}](img/Evaluationen_WiSe_24_25.pdf) 
+    * Evaluationen des letzten Semesters [{{< iconify fa6-solid:arrow-up-right-from-square >}}](img/Evaluationen_WiSe_24_25.pdf) 
 * Für mich typisches auch hier erkennbar:
     * Vorwissen/Präkonzepte aktivieren
     * Active Retrieval Practice 
@@ -46,7 +46,7 @@ glossary:
 
 | {{< iconify fa6-solid:question >}} | **Ihre (Forschungs-)Fragen an die Bildungswissenschaften** |
 |---------------------------------------:|:-------------------------------|
-| {{< iconify fluent-mdl2:venn-diagram >}} | **Disziplinen und Erkenntnisinteressen in den Bildungswissenschaften** |
+| {{< iconify fluent-mdl2:venn-diagram >}} | **Disziplinen & Erkenntnisinteressen Bildungswissenschaften** |
 | {{< iconify fa6-solid:layer-group >}} | **Pädagogische Handlungsebenen** |
 | {{< iconify ph:tree-view-fill >}} | **Generisches und Spezifisches in der Schulpädagogik** |
 
@@ -59,20 +59,23 @@ glossary:
 }
 </style>
 
+## [Disziplinen in den Bildungswissenschaften {{< iconify fluent-mdl2:venn-diagram >}}]{style="font-size: .85em;"}  {.smaller}
 
-## **Ihre (Forschungs-)Fragen an die Bildungswissenschaften** {{< iconify fa6-solid:question >}} {.smaller .center}
+* Es gibt zahlreiche Versuche »die Bildungswissenschaften« zu definieren [@terhart2012; @cramer2019b]
+* Vergleichsweise unstrittig ist, dass es sich um **»diejenigen wissenschaftlichen Disziplinen und Teildisziplinen handelt, die sich wissenschaftlich in jeder denkbaren theoretischen und methodischen Hinsicht [...] auf Themen, Institutionen, Prozesse, Resultate von Bildung und Ausbildung beziehen«** [@terhart2012, S. 28]
+* Damit haben u.a. {{< glossary Erziehungswissenschaft >}}, {{< glossary Soziologie >}} und {{< glossary Psychologie >}} Anteil an den Bildungswissenschaften.
 
-> Angenommen Sie dürften eine Forscherin oder einen Forscher aus einer Bildungswissenschaft (u.a. {{< glossary Erziehungswissenschaft >}}, {{< glossary Soziologie >}}, {{< glossary Psychologie >}}) beauftragen, einer Frage Ihrer Wahl zu nachzugehen. *Wie würde diese Frage lauten?*
+
+> *Angenommen, Sie dürften eine Forscherin oder einen Forscher aus einer Bildungswissenschaft beauftragen, einer Frage Ihrer Wahl zu nachzugehen.*  
+***Wie würde diese Frage lauten?***
+
+## **Ihre (Forschungs-)Fragen an die Bildungswissenschaften** {{< iconify fa6-solid:question >}} {.center}
+
 
 [![](img/Fragen.svg)]{.fragment}
 
 
 
-## [Disziplinen in den Bildungswissenschaften {{< iconify fluent-mdl2:venn-diagram >}}]{style="font-size: .85em;"}  {.smaller}
-
-* Es gibt zahlreiche Versuche »die Bildungswissenschaften« zu definieren [@terhart2012; @cramer2019b]
-* Vergleichsweise unstrittig ist, dass es sich um **»diejenigen wissenschaftlichen Disziplinen und Teildisziplinen handelt, die sich wissenschaftlich in jeder denkbaren theoretischen und methodischen Hinsicht [...] auf Themen, Institutionen, Prozesse, Resultate von Bildung und Ausbildung beziehen«** [@terhart2012, S. 28]
-* Damit haben u.a. Erziehungswissenschaft, Soziologie und Psychologie Anteil an den Bildungswissenschaften.
 
 . . .
 
@@ -81,51 +84,70 @@ glossary:
 ::: {.footer}
 :::
 
-## [Erkenntisinteressen in den Bildungswiss. {{< iconify fluent-mdl2:venn-diagram >}}]{style="font-size: .9em;"} {.smaller}
+## [Erkenntnisinteressen in den Bildungswiss. {{< iconify fluent-mdl2:venn-diagram >}}]{style="font-size: .9em;"} {.smaller}
 
 :::: {.columns}
 
 ::: {.column width='60%'}
 #### Definitionen [@doering2016]
-* "Normative Forschungsfragen" adressieren Sollensansprüche
-* "Deskriptive Forschungsfragen" wollen Variablen bzgl. in ihrer Ausprägung in Gruppen/Populationen beschreiben
-* "Explanative Forschungsfragen" wollen bestehende Hypothesen zu Ursache- Wirkungszusammenhängen belegen/widerlegen 
-* "Explorative Forschungsfragen" wollen neue (deskriptive oder explanative) Forschungsfragen oder Hypothesen entwickeln
+* »Normative Forschungsfragen« adressieren Sollensansprüche
+* »Deskriptive Forschungsfragen« wollen Variablen bzgl. ihrer Ausprägung in Gruppen/Populationen beschreiben
+* »Explanative Forschungsfragen« wollen bestehende Hypothesen zu Ursache- Wirkungszusammenhängen belegen/widerlegen 
+* »Explorative Forschungsfragen« wollen neue (deskriptive oder explanative) Forschungsfragen oder Hypothesen entwickeln
 :::
 
 ::: {.column width='40%'}
+::: {.fragment}
 #### Übung
 <center>
 <iframe width="552" height="500" src="Integrierte_Aufgaben/Disziplin_zuordnen.html" title="Aufgabe"></iframe>
 </center>
 :::
+:::
 
 ::::
 
 ## Sozialwiss. Analyseebenen {{< iconify fa6-solid:layer-group >}} {.smaller}
-Eine weitere Gliederungsmöglichkeit bildungswissenschaftlicher Forschungsfragen erwächst aus der Unterscheidung [@schubert2020; @tippelt2023] von 
+Eine weitere Gliederungsmöglichkeit bildungswissenschaftlicher Forschungsfragen erwächst aus der Unterscheidung [@schubert2020; @tippelt2023a] von 
 
 * Aggregaten/Systemen (z.B. Schulsystem eines Bundeslandes) - Makroebene
 * Institutionen (z.B. Geschwister Scholl Schule Tübingen) - Mesoebene
 * Einzelakteuren (z.B. Lehrkraft, Schülerin) - Mikroebene
 
 ## [Schulpädagogik als Brücke/Gelenkstelle {{< iconify icon-park-solid:bridge-one >}}]{style="font-size:.9em;"} {.smaller}
-Schulpädagogik [@rothland2019] synthetisiert
+Schulpädagogik [@rothland2019] **synthetisiert**
 
-* explanative, explorative, deskriptive und normative bildungswissenschaftliche Forschung,
-* bildet (daraus) heuristische Rahmenmodelle, die der Planung, Analyse und Reflexion [@koenig2022] von schulischem Handeln dienen können und 
-* beforscht diese Prozesse professionellen Lehrpersonenhandels. [@kunina-habenichtolga2020]
+* explanative, explorative, deskriptive und normative bildungswissenschaftliche Forschung auf Mikro, Meso und Makroebene,
+* bildet (daraus) **heuristische Rahmenmodelle**, die der Planung, Analyse und Reflexion [@koenig2022] von schulischem Handeln dienen können und 
+* **beforscht** diese Prozesse **professionellen Lehrpersonenhandels**. [@kunina-habenichtolga2020]
 
-Dabei fokussiert sie tendenziell eher fach- und schulartunspezifische (generische) bildungswissenschaftliche Aspekte und generiert genau Brücken/Gelenkstellen zwischen den diversen Fachdidaktiken und Lehrämtern.
+Dabei fokussiert sie tendenziell eher fach- und schulartunspezifische (generische) bildungswissenschaftliche Aspekte und generiert genau dadurch Brücken/Gelenkstellen zwischen den diversen Fachdidaktiken und Lehrämtern.
 
-## Raster {.smaller}
+## Beispiele {.smaller}
 | Perspektive/Ebene | **Mikro** (Unterricht) | **Meso** (Schule) | **Makro** (System) |
 |-------------------|-------------------|-----------------|-----------------------|
-| **(eher) Generisch** | Feedback | kollegiale Kooperation | Bildungsgerechtigkeit |
-| **(eher) Fachspezifisch** | Pädagogische Diagnostik | Curriculumsentwicklung | Bildungsstandards |
+| **(eher) Generisch** | Formatives Assessment | kollegiale Kooperation | Bildungsgerechtigkeit |
+| **(eher) Fachspezifisch** | Didaktische Reduktion | Curriculumsentwicklung | Bildungsstandards |
 | **(eher) Schulartspezifisch** | Prüfungsformen | Übergangsgestaltung | Zugangsvoraussetzungen |
 
 
+
+## [Formatives Assessment als Brücke zur Fachdidaktik]{style="font-size: .8em;"} {.smaller}
+:::: {.columns}
+
+::: {.column width='50%'}
+*Welche Aufgabe in Klasse 6 für FA?*
+
+1) $378 \cdot 605 = ?$
+2) $58,7 \cdot 0,94 = ?$
+3) $\frac{1}{2} \cdot \frac{5}{6} = ?$
+4) Gwendolyn ist $\frac{3}{4}$ so alt wie Rebecca. Rebecca ist $\frac{2}{3}$ so alt wie Edwin. Edwin ist $20$ Jahre alt. Wie alt ist Gwendolyn?
+:::
+
+::: {.column width='45%'}
+![Hassediagramm dieser Aufgaben nach Falmagne [-@falmagne1990]](img/Hasse.png){width="70%"}
+:::
+::::
 
 ## Literatur {.smaller}
 

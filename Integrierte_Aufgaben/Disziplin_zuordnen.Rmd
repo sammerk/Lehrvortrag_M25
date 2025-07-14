@@ -13,18 +13,18 @@ Fragen <- rbind(
     "Erziehungswissenschaft", "normative"),
   c("Was soll Schule in Zeiten von KI leisten?",
     "Erziehungswissenschaft", "normative"),
-  c("Wie kann ich Interesse bei Schüler:innen entstehen lassen?",
+  c("Entsteht Interesse bei Schüler:innen durch begeisterte Lehrer?",
     "Psychologie", "explanative"),
-  c("Sollte ich Feedback zur Aufgabe oder zur Person geben?",
-    "Psychologie", "explanative"),
+  #c("Sollte ich Feedback zur Aufgabe oder zur Person geben?",
+   # "Psychologie", "explanative"),
   c("Was könnten paradoxe Effekte von Lob & Tadel auf die Motivation sein?",
     "Psychologie", "explorative"),
   c("Gibt es auditive und visuelle Lernende?",
     "Psychologie", "explanative"),
-  c("Sind Animationen lernwirksam?",
-    "Psychologie", "explanative"),
-  c("In welchen Lernsituationen sollte man anatomische Abbildungen in Biologiebüchern realistisch bzw. schematisch abbilden?",
-    "Psychologie", "explorative"),
+#  c("Sind Animationen hilfreich oder ablenkend?",
+#    "Psychologie", "explanative"),
+#  c("In welchen Lernsituationen sollte man anatomische Abbildungen in Biologiebüchern realistisch #bzw. schematisch abbilden?",
+#    "Psychologie", "explorative"),
   #c("Sind Experimente im Physikunterricht lernwirksam?",
   #  "Psychologie", "explanative"),
   c("Wie stark ist die herkunftsbezogene Bildungsungleichheit?",
@@ -61,7 +61,7 @@ sol <- paste(t(Fragen[, 4:5]), collapse = "|")
 
 Question
 ========
-Welches Erkenntnisinteresse und welche Disziplin kann der folgenden Frage zugeordnet werden? 
+Welches Erkenntnisinteresse und welche Disziplin passt am besten zu der folgenden Frage? 
 
 > "*`r Fragen[1,1]`*" stellt eine ##ANSWER1## Frage aus der ##ANSWER2## dar.  
 
