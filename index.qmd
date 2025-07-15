@@ -132,7 +132,7 @@ Dabei fokussiert sie tendenziell eher fach- und schulartunspezifische (generisch
 
 
 
-## [Formatives Assessment als Brücke zur Fachdidaktik]{style="font-size: .8em;"} {.smaller visibility="hidden"}
+## [Formatives Assessment als Brücke zur Fachdidaktik]{style="font-size: .8em;"} {.smaller}
 :::: {.columns}
 
 ::: {.column width='50%'}
