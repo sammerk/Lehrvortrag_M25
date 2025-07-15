@@ -90,10 +90,10 @@ glossary:
 
 ::: {.column width='60%'}
 #### Definitionen [@doering2016]
-* »Normative Forschungsfragen« adressieren Sollensansprüche
 * »Deskriptive Forschungsfragen« wollen Variablen bzgl. ihrer Ausprägung in Gruppen/Populationen beschreiben
 * »Explanative Forschungsfragen« wollen bestehende Hypothesen zu Ursache- Wirkungszusammenhängen belegen/widerlegen 
 * »Explorative Forschungsfragen« wollen neue (deskriptive oder explanative) Forschungsfragen oder Hypothesen entwickeln
+* »Normative Forschungsfragen« adressieren Sollensansprüche
 :::
 
 ::: {.column width='40%'}
